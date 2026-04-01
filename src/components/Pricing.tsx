@@ -4,13 +4,13 @@ const plans = [
   {
     name: "Starter",
     description: "Pour les petites équipes qui démarrent le recouvrement structuré.",
-    price: "199",
+    price: "149",
     period: "/mois",
     features: [
-      "Jusqu'à 500 factures/mois",
+      "Factures illimitées",
       "Relances email automatiques",
       "Dashboard & KPI de base",
-      "1 utilisateur",
+      "Jusqu'à 3 utilisateurs",
       "Support par email",
     ],
     cta: "Commencer l'essai gratuit",
@@ -23,7 +23,8 @@ const plans = [
     period: "/mois",
     features: [
       "Factures illimitées",
-      "Relances multi-canal (email, SMS)",
+      "Relances multi-canal (email + SMS France)",
+      "200 SMS/mois inclus — supp. à 0,12 €/SMS",
       "Portail de paiement client",
       "Gestion des litiges",
       "Jusqu'à 5 utilisateurs",
@@ -65,7 +66,7 @@ export function Pricing() {
             Un tarif simple et transparent
           </h2>
           <p className="mt-5 text-lg text-gray-500 leading-relaxed">
-            Choisissez l&apos;offre adaptée à votre taille. Essai gratuit de 14 jours sur toutes les formules.
+            Choisissez l&apos;offre adaptée à votre taille. Essai gratuit de 10 jours sur toutes les formules.
           </p>
         </div>
 

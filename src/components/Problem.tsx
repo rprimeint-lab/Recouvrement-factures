@@ -58,6 +58,26 @@ export function Problem() {
           </p>
         </div>
 
+        {/* Stats bar — chiffres clés PME France */}
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-14 rounded-2xl bg-red-50 border border-red-100 px-6 py-8">
+          <div className="text-center">
+            <p className="text-3xl font-extrabold text-red-600">52 j</p>
+            <p className="text-sm text-gray-600 mt-1 leading-snug">DSO moyen d&apos;une PME française</p>
+          </div>
+          <div className="text-center">
+            <p className="text-3xl font-extrabold text-red-600">+13,5 j</p>
+            <p className="text-sm text-gray-600 mt-1 leading-snug">de retard moyen constaté par facture</p>
+          </div>
+          <div className="text-center">
+            <p className="text-3xl font-extrabold text-red-600">1/4</p>
+            <p className="text-sm text-gray-600 mt-1 leading-snug">des faillites PME liées aux impayés</p>
+          </div>
+          <div className="text-center">
+            <p className="text-3xl font-extrabold text-red-600">30 K€</p>
+            <p className="text-sm text-gray-600 mt-1 leading-snug">perdus en moyenne par an par PME</p>
+          </div>
+        </div>
+
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {painPoints.map((point) => (
             <div
